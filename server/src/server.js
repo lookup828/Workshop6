@@ -5,8 +5,6 @@ var app = express();
 
 var bodyParser = require('body-parser');
 
-
-
 // You run the server from `server`, so `../client/build` is `server/../client/build`.
 // '..' means "go up one directory", so this translates into `client/build`!
 app.use(express.static('../client/build'));
